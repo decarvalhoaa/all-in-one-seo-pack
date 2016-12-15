@@ -2905,7 +2905,6 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Sitemap' ) ) {
 				'meta_query'    => '',
 				'cache_results' => false,
 				'no_found_rows' => true,
-				'lang'			=> 'en,de',
 			);
 			if ( defined( 'ICL_SITEPRESS_VERSION' ) ) {
 				$defaults['suppress_filters'] = false;
